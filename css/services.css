@@ -121,7 +121,7 @@ nav a {
 	margin: 1%;
 }
 
-#services-link {
+#services-link a {
 	color: yellow;
 	animation: none;
 }
@@ -317,7 +317,7 @@ footer {
     }
 
     #services-link a:hover {
-        cursor: arrow;
+        cursor: default;
     }
 
     .services-header-img {
@@ -327,8 +327,12 @@ footer {
     section {
         width: 96%;
     }
-    /* .services { */
+    .services {
         width: 96%;
+    }
+
+    .services button {
+        width: 100%;
     }
 
     #facts {
@@ -342,4 +346,17 @@ footer {
     .services-info-img {
         width: 100%;
     }
+
+    #facts {
+        flex-direction: column;
+        
+    }
+    .facts {
+        width: 96%;
+    }
+
+    .services-info-img {
+        width: 100%;
+    }
+
 }
