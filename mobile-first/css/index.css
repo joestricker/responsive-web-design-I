@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+    margin: 0 auto;
+}
+
 .container {
     width: 96%;
     margin: 0 auto;
@@ -208,7 +212,9 @@ footer {
 
 @media (min-width: 800px) {
     .container {
-        width: 780px;
+        width: 98%;
+        margin: 0 auto;
+        max-width: 960px;
     }
     
     header {
@@ -220,10 +226,11 @@ footer {
     header img {
         order: unset;
         height: 36px;
+        align-self: center;
     }
 
     nav {
-        width: 75%;
+        width: 70%;
     }
     nav ul {
         display: flex;
@@ -234,5 +241,13 @@ footer {
         padding: 0;
     }
 
+    #headline {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #headline img {
+        display: flex;
+    }
 
 }
