@@ -294,15 +294,9 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* padding: 10px; */
         width: 100%;
-        /* margin: 20px auto; */
         border-bottom: 1px solid black;
     }
-
-    /* nav ul li:hover {
-        cursor: pointer;
-    } */
 
     nav ul li a {
         text-align: center;
